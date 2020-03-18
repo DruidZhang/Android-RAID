@@ -1,7 +1,7 @@
 [参考文章1](https://zhuanlan.zhihu.com/p/69830632)
 [参考文章2](https://zhuanlan.zhihu.com/p/26834562)
 ## 三者关系介绍
-![](images/activity与windowview.jpg)
+![](../../../images/activity与windowview.jpg)
 Activity持有一个window对象
 ```
 public class Activity extends ContextThemeWrappe{
