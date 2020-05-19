@@ -1,11 +1,3 @@
-context->Application,Activity,Service
-ContextWrapper ContextImpl getBaseContext()
-Application: 
-getApplication() getApplicationContext()
-在构造方法和onCreate中调用context方法
-application context 与context的作用域,Content Provider与Broadcast Receiver并不是Context子类,但是内部持有一个Context.
-获取Context的方法
-内存泄漏:context与单例 view持有Activity引用
 # Context
 ## context继承结构
 ![](../../images/context继承结构.png)
