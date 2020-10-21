@@ -24,3 +24,9 @@ popupWindow.setAnimationStyle(R.style.anim_popupWindow);
 ## 注意
 `popupWindow.setOutsideTouchable(true);`有时候会失效,得设置backgroundDrawable<br>
 `popupWindow.setBackgroundDrawable(new ColorDrawable(0x00000000));`
+
+## 和Dialog的区别
+* dialog创建的时候可以不传入宽高,popupwindow需要.
+* popupwindow默认不响应BACK,除非设置setFocusable(true).
+* dialog显示的时候回添加蒙层.
+* popuowindow是阻塞式对话框,显示的时候不会响应其他操作,Dialog点击背景会响应,是非阻塞式.
